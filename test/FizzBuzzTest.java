@@ -35,7 +35,7 @@ class FizzBuzzTest {
     void shouldReturnNumberToStringIfNotMultipleOf3AndOr5() {
         FizzBuzz f = new FizzBuzz();
         Assertions.assertEquals("7", f.fizzbuzz(7));
-        Assertions.assertEquals("8", f.fizzbuzz(8));    }
+        Assertions.assertEquals("8", f.fizzbuzz(8));
     }
 
 }
