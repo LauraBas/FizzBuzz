@@ -3,10 +3,6 @@ import org.junit.jupiter.api.Test;
 
 class FizzBuzzTest {
 
-    @org.junit.jupiter.api.BeforeEach
-    void setUp() {
-    }
-
     @Test
     void shouldReturnFizzBuzzIfMultiple5And3() {
         FizzBuzz f = new FizzBuzz();
